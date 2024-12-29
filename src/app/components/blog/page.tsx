@@ -1,13 +1,5 @@
  
 'use client'
-
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
-// Rest of the file code
-const someValue: any = "This can be anything";
-
-
-
 import { Blog } from "@/types/blog";
 import Link from "next/link";
 import React from "react";
