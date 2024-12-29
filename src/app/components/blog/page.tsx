@@ -12,7 +12,7 @@ import { Blog } from "@/types/blog";
 import Link from "next/link";
 import React from "react";
 
-const BlogItem = ({ blog }: { blog: Blog }) => {
+export default function BlogItem  ({ blog }: { blog: Blog }) {
   return (
     <Link
       href={`/blog/${blog.slug.current}`}
@@ -34,4 +34,3 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
   );
 };
 
-export default BlogItem;
