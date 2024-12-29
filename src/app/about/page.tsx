@@ -18,7 +18,7 @@ const AboutPage = (): JSX.Element => {
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="relative h-[200px] mb-6 overflow-hidden rounded-lg">
             <Image
-              src="/FASTION.jpg"
+              src="/AI.jpg"
               alt="Team"
               className="object-cover hover:scale-105 transition-transform duration-300"
               height={100}
