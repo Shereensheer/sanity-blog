@@ -5,7 +5,6 @@ import { getImageDimensions } from "@sanity/asset-utils";
 
 import Image from "next/image";
 
-// lazy-loaded image component
 const ImageComponent = ({ value, isInline }: any) => {
   const { width, height } = getImageDimensions(value);
   return (

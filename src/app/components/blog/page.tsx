@@ -5,7 +5,7 @@ import { Blog } from "@/types/blog";
 import Link from "next/link";
 import React from "react";
 
-// export default function BlogItem 
+
 const page = ({ blog }: { blog: Blog }) => {
   return (
     <Link
