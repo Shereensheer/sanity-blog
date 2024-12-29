@@ -1,4 +1,4 @@
-import config from "@/sanity/config/client-config";
+
 import { Blog } from "@/types/blog";
 import { PortableText } from "@portabletext/react";
 import { getImageDimensions } from "@sanity/asset-utils";
